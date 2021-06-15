@@ -4,18 +4,16 @@ import Menu from './Menu';
 class Header extends React.Component {
   render() {
     return (
-      <header>
-          <div class="container">
-            <div class="header-left">
-                <div class="circle-large"></div>
-            </div>
-            <Menu />
-            <div class="header-right container">
-                <div class="circle-small"></div>
-                <div class="circle-small"></div>
-                <div class="circle-small"></div>
-            </div>
-          </div>
+      <header className="header-page">
+        <div className="header-left">
+          <div className="circle-large"></div>
+        </div>
+        <Menu />
+        <div className="header-right">
+          <div className="circle-small"></div>
+          <div className="circle-small"></div>
+          <div className="circle-small"></div>
+        </div>
       </header>
     )
   }

@@ -31,7 +31,7 @@ a {
   text-decoration: none;
   color: #fff;
 }
-.container {
+.header-page {
   display: flex;
 }
 .menu {
@@ -40,9 +40,11 @@ a {
 .header-left {
   margin: 0;
   width: calc(100% - 800px);
+  display: flex;
 }
 .header-right {
   margin: 20px 10px 20px 0;
+  display: flex;
 }
 .circle-large {
   background: lightblue;
@@ -64,4 +66,18 @@ a {
 .text {
   font-size: 40pt;
   margin:0;
+}
+.cover-circle {
+  display: flex;
+}
+.text-circle {
+  line-height: 60px;
+}
+.circles {
+  display: flex;
+  margin-left: 585px;
+  margin-top: 50px;
+}
+.circle-group {
+  margin: 0 20px;
 }
