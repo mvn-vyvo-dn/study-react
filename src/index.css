@@ -81,3 +81,31 @@ a {
 .circle-group {
   margin: 0 20px;
 }
+ul {
+  list-style-type: none;
+  margin: 50px auto;
+  width: 500px;
+}
+.square-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.group-item {
+  display: flex;
+  margin-bottom: 10px;
+}
+.item {
+  width: 200px;
+  text-align: left;
+}
+h4,p {
+  margin: 7px 0;
+}
+.delete-icon {
+  text-align: center;
+  margin: auto 0;
+  font-size: x-large;
+  cursor: pointer;
+}
