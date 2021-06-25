@@ -1,13 +1,15 @@
 import './App.css';
 import Header from './Header';
 import Footer from './Footer';
-import Main from './Main';
+import ListItems from './ListItems';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Main />
+      <main>
+      <ListItems/>
+      </main>
       <Footer />
     </div>
   );
