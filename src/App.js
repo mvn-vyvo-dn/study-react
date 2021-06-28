@@ -1,14 +1,14 @@
 import './App.css';
 import Header from './Header';
 import Footer from './Footer';
-import ListItems from './ListItems';
+import RegisterForm from './RegisterForm';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <main>
-      <ListItems/>
+      <RegisterForm />
       </main>
       <Footer />
     </div>
