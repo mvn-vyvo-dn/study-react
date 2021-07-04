@@ -1,14 +1,14 @@
 import './App.css';
 import Header from './Header';
 import Footer from './Footer';
-import RegisterForm from './RegisterForm';
+import RegisterFormHook from './RegisterFormHook';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <main>
-      <RegisterForm />
+      <RegisterFormHook />
       </main>
       <Footer />
     </div>
