@@ -145,3 +145,22 @@ h4,p {
 .register-form button:hover {
   cursor: pointer;
 }
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagination li {
+  border: 1px solid #666;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.disabled {
+  pointer-events: none;
+  color: #999;
+}
+.active {
+  border: 1px solid #888;
+  color: #888;
+  pointer-events: none;
+}
